@@ -14,12 +14,11 @@ const About = () => {
           </p>
           <div className="flex items-center space-x-6 text-sm text-gray-500">
             <div className="flex items-center">
-              <Camera size={16} className="mr-2 text-orange-500" />
-              Más de 1000 sesiones
+              <Camera size={16} className="mr-2 text-orange-500" />4 sesiones
             </div>
             <div className="flex items-center">
               <MapPin size={16} className="mr-2 text-orange-500" />
-              España y Europa
+              Colombia, Bogota (Bosa Porvenir)
             </div>
           </div>
         </div>
@@ -27,7 +26,7 @@ const About = () => {
           <img
             src={aboutSection.image}
             alt="Sobre mí"
-            className="w-full h-96 object-cover rounded-none shadow-2xl"
+            className="w-full h-96 object-contain rounded-none shadow-2xl"
           />
           <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-r from-orange-500 to-amber-500 opacity-20"></div>
         </div>

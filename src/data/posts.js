@@ -1,6 +1,6 @@
 export const featuredPost = {
   title: "El Arte de ayudar",
-  subtitle: "public//UNIMINUTO-Logo.png",
+  subtitle: "/Responsabilidad_Social/UNIMINUTO-Logo.png", // Actualizada para GitHub Pages
   description:
     "La tecnología, al servicio de la empatía, ilumina caminos y acerca corazones.",
   image:
@@ -9,13 +9,11 @@ export const featuredPost = {
 };
 
 export const aboutSection = {
-  title: "Conoce Mi Historia",
+  title: "Sobre mí",
   description:
-    "Soy una fotógrafa apasionada que encuentra belleza en los detalles cotidianos. Mi trabajo se centra en capturar emociones auténticas y crear narrativas visuales que conecten con el alma.",
-  image:
-    "https://images.unsplash.com/photo-1494790108755-2616c047d70a?w=400&h=500&fit=crop",
+    "Soy Jairo, estudiante de UNIMINUTO, y estoy comprometido con ayudar a las comunidades a través de la tecnología como herramienta de transformación social. Mi misión es acompañarlas y guiarlas en temas de inteligencia artificial y fundamentos tecnológicos, acercando el conocimiento de forma sencilla y accesible.",
+  image: "/Responsabilidad_Social/Profile.jpg", // o la imagen que tú prefieras
 };
-
 export const upcomingSection = {
   title: "Próximas Aventuras",
   items: [
@@ -49,60 +47,53 @@ export const upcomingSection = {
 export const blogPosts = [
   {
     id: 1,
-    title: "Capturando la Luz Dorada",
-    excerpt: "Descubre los secretos para fotografiar durante la hora dorada...",
-    category: "Fotografía",
-    author: "Ana Martín",
-    location: "Barcelona, España",
-    date: "15 May 2025",
-    readTime: "8 min",
+    title: "Semana 1 - Dispositivos y Sistemas Operativos",
+    category: "Fundamentos",
+    excerpt:
+      "Exploramos qué es un dispositivo digital, cómo funcionan los sistemas operativos y cómo se integra la IA en la tecnología cotidiana.",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-    likes: 127,
-    comments: 23,
+      "https://as1.ftcdn.net/v2/jpg/09/48/48/46/1000_F_948484689_CphTD2OfaMiF3gLvvuY3rKE8eZXwHprp.jpg",
+    author: "Jairo",
+    location: "UNIMINUTO - Virtual",
+    readTime: "44 min",
+    likes: 15,
   },
   {
     id: 2,
-    title: "Retratos Urbanos Auténticos",
+    title: "Semana 2 - Navegación con IA",
+    category: "Navegación",
     excerpt:
-      "Técnicas para capturar la esencia de las personas en entornos urbanos...",
-    category: "Retratos",
-    author: "Carlos Rivera",
-    location: "Madrid, España",
-    date: "12 May 2025",
-    readTime: "6 min",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
-    likes: 89,
-    comments: 15,
+      "Analizamos cómo utilizar motores de búsqueda de forma segura y cómo la IA mejora el acceso a información educativa.",
+    image: "https://images6.alphacoders.com/465/thumb-1920-465686.jpg",
+    author: "Jairo",
+    location: "UNIMINUTO",
+    readTime: "18 min",
+    likes: 27,
   },
   {
     id: 3,
-    title: "Paisajes que Cuentan Historias",
+    title: "Semana 3 - Comunicación Digital con IA",
+    category: "Comunicación",
     excerpt:
-      "Más allá de la belleza: cómo crear composiciones paisajísticas que narren emociones...",
-    category: "Paisajes",
-    author: "María González",
-    location: "Asturias, España",
-    date: "10 May 2025",
-    readTime: "10 min",
+      "Aplicamos IA para mejorar la redacción de mensajes, explorar chats simulados y reflexionar sobre su rol en la expresión crítica.",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-    likes: 156,
-    comments: 31,
+      "https://static.vecteezy.com/system/resources/previews/000/669/377/non_2x/two-futuristic-glowing-low-polygonal-speech-bubbles.jpg",
+    author: "Jairo",
+    location: "UNIMINUTO",
+    readTime: "17 min",
+    likes: 29,
   },
   {
     id: 4,
-    title: "Aventuras Fotográficas",
-    excerpt: "Relatos de expediciones fotográficas por lugares remotos...",
-    category: "Viajes",
-    author: "Roberto Silva",
-    location: "Patagonia, Chile",
-    date: "8 May 2025",
-    readTime: "12 min",
+    title: "Semana 4 - Aprendizaje Potenciado con IA",
+    category: "Aprendizaje",
+    excerpt:
+      "Descubrimos herramientas como Khan Academy o Duolingo, y aplicamos IA en proyectos reales de aprendizaje.",
     image:
-      "https://images.unsplash.com/photo-1464822759844-d150065c142f?w=800&h=600&fit=crop",
-    likes: 203,
-    comments: 45,
+      "https://img.freepik.com/premium-vector/ai-artificial-intelligence-machine-learning-technology-big-data-analysis-circuit-board-background_127544-3227.jpg?w=826",
+    author: "Jairo",
+    location: "UNIMINUTO",
+    readTime: "20 min",
+    likes: 35,
   },
 ];

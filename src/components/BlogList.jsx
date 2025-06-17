@@ -3,13 +3,19 @@ import { Search, User, Heart, MapPin } from "lucide-react";
 import { blogPosts } from "../data/posts";
 
 const BlogList = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Todos");
+  const [selectedCategory, setSelectedCategory] = useState("Todas");
   const [searchTerm, setSearchTerm] = useState("");
-  const categories = ["Todos", "Fotografía", "Viajes", "Retratos", "Paisajes"];
+  const categories = [
+    "Todas",
+    "Fundamentos",
+    "Navegación",
+    "Comunicación",
+    "Aprendizaje",
+  ];
 
   const filteredPosts = blogPosts.filter((post) => {
     const matchesCategory =
-      selectedCategory === "Todos" || post.category === selectedCategory;
+      selectedCategory === "Todas" || post.category === selectedCategory;
     const matchesSearch =
       post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       post.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
@@ -21,14 +27,14 @@ const BlogList = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
-            Historias Visuales
+            Aprendiendo con Inteligencia Artificial
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Cada imagen cuenta una historia, cada momento capturado es una
-            ventana al alma
+            Un recorrido por cuatro sesiones para descubrir cómo la tecnología y
+            la IA pueden mejorar nuestras habilidades y transformar nuestro
+            entorno.
           </p>
         </div>
-
         {/* Filtro */}
         <div className="mb-16 flex flex-col md:flex-row gap-6 items-center justify-between">
           <div className="relative max-w-md w-full">
@@ -38,7 +44,7 @@ const BlogList = () => {
             />
             <input
               type="text"
-              placeholder="Buscar historias..."
+              placeholder="Buscar sesiones..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-12 pr-4 py-4 bg-white border border-gray-200 rounded-none focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
