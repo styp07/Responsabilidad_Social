@@ -14,7 +14,6 @@ const Home = () => {
       <About />
       <BlogList />
       <Upcoming />
-      <Newsletter />
       <Footer />
     </>
   );

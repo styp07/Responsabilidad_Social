@@ -15,31 +15,25 @@ export const aboutSection = {
   image: "/Responsabilidad_Social/Profile.jpg", // o la imagen que tú prefieras
 };
 export const upcomingSection = {
-  title: "Próximas Aventuras",
+  title: "Últimas sesiones del programa",
   items: [
     {
-      id: 1,
-      title: "Workshop de Fotografía Nocturna",
-      description: "Aprende a capturar la magia de la noche",
-      image:
-        "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=300&h=200&fit=crop",
-      date: "25 Jun 2025",
-    },
-    {
-      id: 2,
-      title: "Expedición Fotográfica a los Picos",
-      description: "Paisajes montañosos y técnicas avanzadas",
-      image:
-        "https://images.unsplash.com/photo-1464822759844-d150065c142f?w=300&h=200&fit=crop",
-      date: "15 Jul 2025",
-    },
-    {
       id: 3,
-      title: "Masterclass de Edición Creativa",
-      description: "Transforma tus fotografías con técnicas profesionales",
+      title: "Semana 3 - Comunicación Digital con IA",
+      description:
+        "Aplicamos IA para mejorar la redacción de mensajes, explorar chats simulados y reflexionar sobre su rol en la expresión crítica.",
       image:
-        "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?w=300&h=200&fit=crop",
-      date: "10 Ago 2025",
+        "https://static.vecteezy.com/system/resources/previews/000/669/377/non_2x/two-futuristic-glowing-low-polygonal-speech-bubbles.jpg",
+      date: "18 Jun 2025",
+    },
+    {
+      id: 4,
+      title: "Semana 4 - Aprendizaje Potenciado con IA",
+      description:
+        "Descubrimos herramientas como Khan Academy o Duolingo, y aplicamos IA en proyectos reales de aprendizaje.",
+      image:
+        "https://img.freepik.com/premium-vector/ai-artificial-intelligence-machine-learning-technology-big-data-analysis-circuit-board-background_127544-3227.jpg?w=826",
+      date: "21 Jun 2025",
     },
   ],
 };
@@ -56,7 +50,7 @@ export const blogPosts = [
     author: "Jairo",
     location: "UNIMINUTO - Virtual",
     readTime: "44 min",
-    likes: 15,
+    likes: 16,
   },
   {
     id: 2,
@@ -67,8 +61,8 @@ export const blogPosts = [
     image: "https://images6.alphacoders.com/465/thumb-1920-465686.jpg",
     author: "Jairo",
     location: "UNIMINUTO",
-    readTime: "18 min",
-    likes: 27,
+    readTime: "25 min",
+    likes: 8,
   },
   {
     id: 3,
@@ -80,8 +74,8 @@ export const blogPosts = [
       "https://static.vecteezy.com/system/resources/previews/000/669/377/non_2x/two-futuristic-glowing-low-polygonal-speech-bubbles.jpg",
     author: "Jairo",
     location: "UNIMINUTO",
-    readTime: "17 min",
-    likes: 29,
+    readTime: "40 min",
+    likes: 0,
   },
   {
     id: 4,
@@ -93,7 +87,7 @@ export const blogPosts = [
       "https://img.freepik.com/premium-vector/ai-artificial-intelligence-machine-learning-technology-big-data-analysis-circuit-board-background_127544-3227.jpg?w=826",
     author: "Jairo",
     location: "UNIMINUTO",
-    readTime: "20 min",
-    likes: 35,
+    readTime: "40 min",
+    likes: 0,
   },
 ];

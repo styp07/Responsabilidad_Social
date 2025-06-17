@@ -8,10 +8,10 @@ const Header = () => {
   // Definir rutas reales
   const menuItems = [
     { name: "Inicio", path: "/" },
-    { name: "Plan de acción", path: "/plan" },
+    { name: "Problematica y Plan de acción", path: "/plan" },
     { name: "Blog", path: "/blog" },
-    { name: "Galeria", path: "/galeria" },
-    { name: "Contacto", path: "/contacto" },
+    // { name: "Galeria", path: "/galeria" },
+    // { name: "Contacto", path: "/contacto" },
   ];
 
   return (

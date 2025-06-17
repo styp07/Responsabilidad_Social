@@ -9,9 +9,7 @@ const Upcoming = () => {
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
             {upcomingSection.title}
           </h2>
-          <p className="text-lg text-gray-600">
-            Próximos workshops y expediciones fotográficas
-          </p>
+          <p className="text-lg text-gray-600">No te las pierdas</p>
         </div>
 
         <div className="space-y-8">

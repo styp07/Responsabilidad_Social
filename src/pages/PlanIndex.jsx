@@ -12,7 +12,7 @@ const PlanIndex = () => {
       <section className="bg-gradient-to-r from-orange-500 to-red-500 text-white">
         <div className="max-w-6xl mx-auto py-20 px-4 text-center">
           <h1 className="text-5xl font-bold mb-6 leading-tight">
-            Plan de Acción
+            Problematica y plan de acción
           </h1>
           <p className="text-xl opacity-90 max-w-2xl mx-auto leading-relaxed">
             Descubre las problemáticas más importantes y las soluciones

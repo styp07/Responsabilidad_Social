@@ -87,5 +87,47 @@ Entre los efectos más relevantes se encuentra la exclusión digital, la ralenti
       `,
     },
     // Aquí puedes agregar el planAccion de la IA si lo deseas
+    planAccion: [
+      {
+        semana: "Semana 1",
+        objetivo:
+          "Comprender el funcionamiento básico de los dispositivos digitales y sistemas operativos",
+        actividades: [
+          "Sesión práctica: ¿Qué es un dispositivo digital? Usos cotidianos en educación.",
+          "Reconocimiento del sistema operativo y sus funciones básicas.",
+          "Análisis de cómo la IA está integrada en dispositivos móviles y computadores (ej: asistentes virtuales).",
+        ],
+      },
+      {
+        semana: "Semana 2",
+        objetivo:
+          "Explorar el uso seguro y eficiente de los navegadores de internet",
+        actividades: [
+          "Taller sobre motores de búsqueda y cómo reconocer fuentes confiables sobre IA.",
+          "Simulación: cómo encontrar información educativa con ayuda de la IA (ej: búsqueda guiada con Bing Chat o ChatGPT).",
+          "Charla con experto/a sobre mitos y verdades de la IA en la web.",
+        ],
+      },
+      {
+        semana: "Semana 3",
+        objetivo:
+          "Fortalecer las habilidades de comunicación digital usando herramientas con IA",
+        actividades: [
+          "Taller: uso de IA para redactar mensajes, correos o ideas de forma clara y ética.",
+          "Dinámica grupal: simulación de chat entre un estudiante y una IA educativa.",
+          "Discusión guiada: ¿la IA puede ayudar a mejorar la expresión y el pensamiento crítico?",
+        ],
+      },
+      {
+        semana: "Semana 4",
+        objetivo:
+          "Aprovechar servicios en línea potenciados con IA para el aprendizaje",
+        actividades: [
+          "Exploración de plataformas como Khan Academy, Duolingo o Grammarly con IA integrada.",
+          "Creación de un mini-proyecto donde los estudiantes apliquen una herramienta IA en una tarea real.",
+          "Evaluación participativa sobre aprendizajes y percepciones transformadas del uso de IA.",
+        ],
+      },
+    ],
   },
 ];
