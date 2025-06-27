@@ -34,13 +34,12 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-400">
+              <a
+                href="https://uniminuto0-my.sharepoint.com/:f:/g/personal/jairo_rodriguez-p_uniminuto_edu_co/Eje1dJMq0lNAtMyLORf0KdcBOuiGnr63J-KEyqz0J16AiQ?e=4tZc0N"
+                className="hover:text-orange-400"
+                target="_blank"
+              >
                 Material de Apoyo
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-orange-400">
-                Proyectos Finales
               </a>
             </li>
           </ul>

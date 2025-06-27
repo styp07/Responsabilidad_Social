@@ -10,6 +10,10 @@ const Header = () => {
     { name: "Inicio", path: "/" },
     { name: "Problematica y Plan de acción", path: "/plan" },
     { name: "Blog", path: "/blog" },
+    {
+      name: "Material de apoyo",
+      path: "https://uniminuto0-my.sharepoint.com/:f:/g/personal/jairo_rodriguez-p_uniminuto_edu_co/Eje1dJMq0lNAtMyLORf0KdcBOuiGnr63J-KEyqz0J16AiQ?e=4tZc0N",
+    },
     // { name: "Galeria", path: "/galeria" },
     // { name: "Contacto", path: "/contacto" },
   ];
@@ -34,15 +38,27 @@ const Header = () => {
 
           {/* Navegación en escritorio */}
           <nav className="hidden md:flex space-x-8">
-            {menuItems.map(({ name, path }) => (
-              <Link
-                key={name}
-                to={path}
-                className="text-white/90 hover:text-orange-400 transition-colors duration-200 font-medium"
-              >
-                {name}
-              </Link>
-            ))}
+            {menuItems.map(({ name, path }) =>
+              name === "Material de apoyo" ? (
+                <a
+                  key={name}
+                  href={path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/90 hover:text-orange-400 transition-colors duration-200 font-medium"
+                >
+                  {name}
+                </a>
+              ) : (
+                <Link
+                  key={name}
+                  to={path}
+                  className="text-white/90 hover:text-orange-400 transition-colors duration-200 font-medium"
+                >
+                  {name}
+                </Link>
+              )
+            )}
           </nav>
 
           {/* Botón hamburguesa en móvil */}

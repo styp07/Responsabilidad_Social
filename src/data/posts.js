@@ -5,7 +5,7 @@ export const featuredPost = {
     "La tecnología, al servicio de la empatía, ilumina caminos y acerca corazones.",
   image:
     "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-  ctaText: "Plan de acción",
+  ctaText: "Problematica y Plan de acción",
 };
 
 export const aboutSection = {
